@@ -1,4 +1,6 @@
 #-*- utf-8 -*- # Para compilar com caracteres especiais.
+import random
+
 print("Hello World")
 print("Olá mundo!!")
 
@@ -239,3 +241,5 @@ for i_dic in dicionario.values():
 print("\n.....keys")
 for i_dic in dicionario.keys():
 	print(i_dic)	
+
+numero = random()
